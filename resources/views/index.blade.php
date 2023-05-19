@@ -166,13 +166,12 @@
                           <div class="pr-3">
                             <h4 class="font-weight-600"><a href="/videos/{{ $video->slug }}" class="text-decoration-none text-dark"> {{$video->title}} </a></h4>
                             <div class="fs-12">
-                              By. <a href="/videos?user={{$video->user->username}}" class="text-decoration-none">{{ $video->user->name }}</a>
-                                {{$post->created_at->diffForHumans()}}
-                            </div>
+                            By. <a href="/videos?user={{$video->user->username}}" class="text-decoration-none">{{ $video->user->name }}</a>
+                            {{$video->created_at->diffForHumans()}}
+                        </div>
                             <div class="badge badge-danger fs-12 font-weight-bold mb-3">
                               <a href="/videos?category={{ $video->category->slug }}" class="text-decoration-none text-white">{{ $video->category->name }} </a>
-                            </div>
-                          </div>
+                        </div>
                           <div class="img">
                             <img src="{{asset('storage/'. $video->image)}}" alt="{{$video->category->name}}" style="width:150px;height:100px;"/>
                           </div>

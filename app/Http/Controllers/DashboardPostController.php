@@ -48,7 +48,7 @@ class DashboardPostController extends Controller
             'title' => 'required | max:255',
             'slug' => 'required | unique:posts',
             'category_id' => 'required',
-            'image' => 'image|file|max:1024',
+            'image' => 'image|file|max:10000',
             'body' => 'required'
         ]);
 
@@ -105,6 +105,15 @@ class DashboardPostController extends Controller
             'image' => 'image|file|max:10000',
             'body' => 'required'
         ];
+
+        if ($request->hasFile('image')) {
+            $image = $request->file('image');
+            $imagePath = $image->store('post-images');
+        
+            $validatedData['image'] = $imagePath;
+        
+            // Simpan $validatedData ke database atau lakukan operasi lain yang diperlukan
+        }
         
         //validasi slug
         if($request->slug != $post->slug ){
