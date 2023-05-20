@@ -17,6 +17,31 @@
           font-size: 3.5rem;
         }
       }
+
+      .form-signin {
+        max-width: 330px;
+        padding: 15px;
+        margin: 0 auto;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .form-signin .form-floating {
+        margin-bottom: 10px;
+      }
+
+      .form-signin .btn-primary {
+        margin-top: 10px;
+      }
+
+      body {
+        background-image: url("/images/background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+      }
     </style>
 
     

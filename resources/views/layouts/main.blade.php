@@ -64,7 +64,9 @@
               <div class="navbar-bottom">
                 <div class="d-flex justify-content-between align-items-center">
                   <div>
-                    <a class="navbar-brand text-white" href="#">MORGANS</a>
+      <a class="navbar-brand text-white" href="#">
+        <img src="/images/morgans.jpg" alt="" class="mr-2">
+      </a>
                   </div>
                   <div>
                     <button class="navbar-toggler" type="button" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -100,22 +102,20 @@
                         <li class="nav-item">
                           <a class="nav-link" href="/posts?category=travel">Travel</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Contact</a>
-                        </li>
                       </ul>
                     </div>
                   </div>
                   <ul class="social-media">
                     <li>
-                      <a href="#">
-                        <i class="mdi mdi-facebook"></i>
-                      </a>
+                    <a href="https://www.instagram.com/dhikicyc_/" target="_blank">
+                     <i class="mdi mdi-instagram"></i>
+                    </a>
+
                     </li>
                     <li>
-                      <a href="https://www.youtube.com/@GustianREKT" target="_blank">
-                        <i class="mdi mdi-youtube"></i>
-                      </a>
+                    <a href="https://api.whatsapp.com/send?phone=085870448438" target="_blank">
+                    <i class="mdi mdi-whatsapp"></i>
+                    </a>
                     </li>
                   </ul>
                 </div>
@@ -138,14 +138,15 @@
                   </h5>
                   <ul class="social-media mb-3">
                     <li>
-                      <a href="#">
-                        <i class="mdi mdi-facebook"></i>
-                      </a>
+                    <a href="https://www.instagram.com/dhikicyc_/" target="_blank">
+                     <i class="mdi mdi-instagram"></i>
+                    </a>
                     </li>
                     <li>
-                      <a href="https://www.youtube.com/@GustianREKT" target='_blank'>
-                        <i class="mdi mdi-youtube"></i>
-                      </a>
+                    <a href="https://api.whatsapp.com/send?phone=085870448438" target="_blank">
+                    <i class="mdi mdi-whatsapp"></i>
+                    </a>
+
                     </li>
                   </ul>
                 </div>
